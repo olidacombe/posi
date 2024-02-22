@@ -1,0 +1,16 @@
+{
+  "name": "posi",
+  "version": "1.0.0",
+  "scripts": {
+    "fmt": "prettier --write --ignore-unknown ."
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7"
+  }
+}

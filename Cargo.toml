@@ -1,0 +1,18 @@
+[package]
+name = "posi"
+version = "0.1.0"
+edition = "2021"
+publish = ["gsr-remote"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+askama = { version = "0.12.1", registry = "gsr-remote" }
+axum = { version = "0.7.4", registry = "gsr-remote" }
+color-eyre = { version = "0.6.2", registry = "gsr-remote" }
+serde = { version = "1.0.197", registry = "gsr-remote", features = ["derive"] }
+tokio = { version = "1.36.0", registry = "gsr-remote", features = ["full"] }
+tower = { version = "0.4.13", registry = "gsr-remote" }
+tower-http = { version = "0.5.1", registry = "gsr-remote", features = ["fs"] }
+tracing = { version = "0.1.40", registry = "gsr-remote" }
+tracing-subscriber = { version = "0.3.18", registry = "gsr-remote", features = ["env-filter"] }
